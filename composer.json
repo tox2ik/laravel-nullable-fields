@@ -1,0 +1,26 @@
+{
+    "name": "tox2ik/laravel-nullable-fields",
+    "description": "UPDATE USER SET funds = NULL",
+    "type": "utility",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "public-domain",
+    "authors": [
+        {
+            "name": "Jaroslav Rakhmatoullin",
+            "email": "jazzoslav@gmail.com",
+            "homepage": "http://genja.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+			"Illuminate\\": "src/Illuminate"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+		"illuminate/database": "~5.0"
+    }
+}
